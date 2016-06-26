@@ -203,7 +203,9 @@ input[type="submit"]{
 
 @media screen and (max-width: 992px){
 
-	
+	.inner{
+		padding-top: 50px;
+	}	
 	
 	#features{
 		height: 100%;
