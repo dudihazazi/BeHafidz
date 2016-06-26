@@ -21,14 +21,14 @@ body {
 }
 
 h1{
-	font-size: 4em;
+	font-size: 5vw;
 	font-family: Roman;
 	letter-spacing: 5px;
 	line-height: 0.8em;
 }
 
 h1 small{
-	font-size: 0.5em;
+	font-size: 2.5vw;
 	font-family: 'Martel';
 	letter-spacing: 1px;
 	color: #fff;
@@ -89,12 +89,12 @@ h1 small{
 
 .fitur h2{
 	color: #26a69a;
-	font-size: 3em;
+	font-size: 4vw;
 	font-family: Roman;
 }
 
 .fitur h3{
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	font-family: "Martel";
 	line-height: 30px;
 }
@@ -116,14 +116,15 @@ h1 small{
 }
 
 .gudeg h2{
-	font-size: 3em;
+	font-size: 3vw;
 }
 
 .gudeg h3{
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	font-family: "Martel";
 	line-height: 30px;
 }
+
 .femail{
 	color: #fff;
 	text-align: right;
@@ -131,7 +132,7 @@ h1 small{
 }
 
 .femail h2{
-	font-size: 3em;
+	font-size: 3vw;
 }
 
 input{
@@ -140,7 +141,7 @@ input{
 	background-color: transparent;
 	border: none;
 	padding: 10px;
-	font-size: 2em;
+	font-size: 2vw;
 }
 
 ::-webkit-input-placeholder {
@@ -173,7 +174,7 @@ textarea{
 	background-color: transparent;
 	border: none;
 	padding: 10px;
-	font-size: 1.5em;
+	font-size: 1.5vw;
 }
 
 .rounded-c{
@@ -184,7 +185,7 @@ textarea{
 }
 
 input[type="submit"]{
-	font-size: 1em;
+	font-size: 1vw;
 	height: auto;
 }
 
@@ -203,11 +204,27 @@ input[type="submit"]{
 
 @media screen and (max-width: 992px){
 
+	h1{
+		font-size: 12vw;
+	}
+
+	h1 small{
+		font-size: 6vw;
+	}
+	
+	h4{
+		font-size: 5vw;
+	}
+
 	.inner{
 		padding-top: 50px;
 		padding-bottom: 50px;
-	}	
-	
+	}
+
+	.playstore{
+		margin-bottom: 10px;
+	}
+
 	#features{
 		height: 100%;
 		background-size: cover;
@@ -215,12 +232,20 @@ input[type="submit"]{
 
 	.phone{
 		height: 100%;
-		padding: 40px;
+		padding: 10vw 25vw 5vw 25vw;
 	}
 
 	.fitur{
 		height: 100%;
 		margin-top: auto;
+	}
+
+	.fitur h2{
+		font-size: 9vw;
+	}
+
+	.fitur h3{
+		font-size: 5vw;
 	}
 
 	#contact{
@@ -233,8 +258,20 @@ input[type="submit"]{
 		margin-bottom: 30px;
 	}
 
+	.gudeg h2{
+		font-size: 9vw;
+		text-align: center;
+	}
+
+	.gudeg h3{
+		font-size: 5vw;
+		font-family: "Martel";
+		line-height: 30px;
+	}
+
 	.femail h2{
 		text-align: center;
+		font-size: 9vw;
 	}
 
 	.femail{
@@ -242,8 +279,12 @@ input[type="submit"]{
 		text-align: left;
 	}
 
-	.gudeg h2{
-		text-align: center;
+	input{
+		font-size: 5vw;
+	}
+
+	textarea{
+		font-size: 4vw;
 	}
 
 	#footer{
