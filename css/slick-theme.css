@@ -202,3 +202,14 @@
     opacity: 1;
     color: #26a29a;
 }
+
+@media screen and (max-width: 992px){
+    .slick-dots li button:before{
+        font-size: 10px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before{
+        display: none;
+    }
+}
