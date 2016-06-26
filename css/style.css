@@ -90,7 +90,7 @@ h1 small{
 .fitur h2{
 	color: #26a69a;
 	font-size: 3em;
-	font-family: "RomanSerif";
+	font-family: Roman;
 }
 
 .fitur h3{
@@ -112,7 +112,7 @@ h1 small{
 	margin-top: 10vh;
 	color: #fff;
 	text-align: justify;
-	font-family: "RomanSerif";
+	font-family: Roman;
 }
 
 .gudeg h2{
@@ -127,7 +127,7 @@ h1 small{
 .femail{
 	color: #fff;
 	text-align: right;
-	font-family: "RomanSerif";
+	font-family: Roman;
 }
 
 .femail h2{
