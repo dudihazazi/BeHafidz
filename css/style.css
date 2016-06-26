@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Martel:200);
-@import url('../fonts/RomanSerif.ttf')
+@import url('../fonts/RomanSerif.ttf');
 
 html,
 body {
 	width: 100%;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 body {
@@ -200,9 +200,7 @@ input[type="submit"]{
 
 @media screen and (max-width: 992px){
 
-	h1{
-		font-family:"Martel";
-	}
+	
 	
 	#features{
 		height: 100%;
