@@ -200,6 +200,10 @@ input[type="submit"]{
 
 @media screen and (max-width: 992px){
 
+	h1{
+		font-family:"Martel";
+	}
+	
 	#features{
 		height: 100%;
 		background-size: cover;
